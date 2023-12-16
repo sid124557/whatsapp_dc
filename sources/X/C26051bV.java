@@ -1,0 +1,180 @@
+package X;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+/* renamed from: X.1bV  reason: invalid class name and case insensitive filesystem */
+public final class C26051bV extends AnonymousClass3ZG {
+    public Boolean A00;
+    public Boolean A01;
+    public Boolean A02;
+    public Boolean A03;
+    public Boolean A04;
+    public Boolean A05;
+    public Double A06;
+    public Double A07;
+    public Double A08;
+    public Double A09;
+    public Integer A0A;
+    public Integer A0B;
+    public Integer A0C;
+    public Integer A0D;
+    public Integer A0E;
+    public Integer A0F;
+    public Integer A0G;
+    public Integer A0H;
+    public Integer A0I;
+    public Long A0J;
+    public Long A0K;
+    public Long A0L;
+    public Long A0M;
+    public Long A0N;
+    public Long A0O;
+    public Long A0P;
+    public Long A0Q;
+    public Long A0R;
+    public Long A0S;
+    public Long A0T;
+    public Long A0U;
+    public Long A0V;
+    public Long A0W;
+    public Long A0X;
+    public Long A0Y;
+    public Long A0Z;
+    public Long A0a;
+    public Long A0b;
+    public String A0c;
+    public String A0d;
+    public String A0e;
+    public String A0f;
+    public String A0g;
+    public String A0h;
+    public String A0i;
+
+    public C26051bV() {
+        super(1590, AnonymousClass0x9.A0T(1, 10, 50), 0, -1);
+    }
+
+    public void serialize(AnonymousClass4AD r3) {
+        C162457s7.A0J(r3, 0);
+        r3.Blb(50, this.A0c);
+        r3.Blb(31, this.A0A);
+        r3.Blb(46, this.A0J);
+        r3.Blb(24, this.A0d);
+        r3.Blb(22, this.A0e);
+        r3.Blb(23, this.A0f);
+        r3.Blb(49, this.A0K);
+        r3.Blb(20, this.A06);
+        r3.Blb(15, this.A0L);
+        r3.Blb(18, this.A0M);
+        r3.Blb(17, this.A00);
+        r3.Blb(19, this.A01);
+        r3.Blb(16, this.A0N);
+        r3.Blb(37, this.A0B);
+        r3.Blb(14, this.A0O);
+        r3.Blb(21, this.A0P);
+        r3.Blb(36, this.A07);
+        r3.Blb(42, this.A08);
+        r3.Blb(43, this.A0Q);
+        r3.Blb(47, this.A0R);
+        r3.Blb(48, this.A0S);
+        r3.Blb(44, this.A02);
+        r3.Blb(45, this.A0C);
+        r3.Blb(41, this.A03);
+        r3.Blb(38, this.A0T);
+        r3.Blb(30, this.A0D);
+        r3.Blb(4, this.A0U);
+        r3.Blb(39, this.A0E);
+        r3.Blb(10, this.A0V);
+        r3.Blb(29, this.A0g);
+        r3.Blb(27, this.A0W);
+        r3.Blb(5, this.A0h);
+        r3.Blb(11, this.A0F);
+        r3.Blb(35, this.A0G);
+        r3.Blb(25, this.A0H);
+        r3.Blb(13, this.A0X);
+        r3.Blb(28, this.A04);
+        r3.Blb(26, this.A05);
+        r3.Blb(7, this.A09);
+        r3.Blb(1, this.A0I);
+        r3.Blb(6, this.A0Y);
+        r3.Blb(9, this.A0Z);
+        r3.Blb(3, this.A0a);
+        r3.Blb(8, this.A0b);
+        r3.Blb(40, this.A0i);
+    }
+
+    public Map getFieldsMap() {
+        LinkedHashMap A0r = C18320x8.A0r();
+        A0r.put(50, this.A0c);
+        A0r.put(31, this.A0A);
+        A0r.put(AnonymousClass3ZG.A09(AnonymousClass3ZG.A08(AnonymousClass3ZG.A0A(46, this.A0J, A0r), this.A0d, A0r), this.A0e, A0r), this.A0f);
+        A0r.put(AnonymousClass0x2.A0O(AnonymousClass3ZG.A05(AnonymousClass0x2.A0P(AnonymousClass0x2.A0Q(AnonymousClass0x2.A0N(AnonymousClass3ZG.A06(49, this.A0K, A0r), this.A06, A0r), this.A0L, A0r), this.A0M, A0r), this.A00, A0r), this.A01, A0r), this.A0N);
+        A0r.put(AnonymousClass3ZG.A07(C18270x1.A0Q(37, this.A0B, A0r), this.A0O, A0r), this.A0P);
+        A0r.put(36, this.A07);
+        A0r.put(42, this.A08);
+        A0r.put(43, this.A0Q);
+        A0r.put(47, this.A0R);
+        A0r.put(48, this.A0S);
+        A0r.put(44, this.A02);
+        A0r.put(45, this.A0C);
+        A0r.put(41, this.A03);
+        A0r.put(C18270x1.A0G(AnonymousClass3ZG.A0F(38, this.A0T, A0r), this.A0D, A0r), this.A0U);
+        A0r.put(AnonymousClass3ZG.A0C(AnonymousClass3ZG.A0E(C18270x1.A0M(39, this.A0E, A0r), this.A0V, A0r), this.A0g, A0r), this.A0W);
+        AnonymousClass3ZG.A0I(A0r, 12);
+        A0r.put(C18270x1.A0N(C18290x4.A0c(), this.A0h, A0r), this.A0F);
+        A0r.put(C18270x1.A0K(C18270x1.A0F(C18270x1.A0L(C18270x1.A0I(C18270x1.A0D(C18270x1.A0J(AnonymousClass3ZG.A0B(AnonymousClass3ZG.A0D(C18270x1.A0P(C18290x4.A0f(35, this.A0G, A0r), this.A0H, A0r), this.A0X, A0r), this.A04, A0r), this.A05, A0r), this.A09, A0r), this.A0I, A0r), this.A0Y, A0r), this.A0Z, A0r), this.A0a, A0r), this.A0b);
+        A0r.put(40, this.A0i);
+        return A0r;
+    }
+
+    public String toString() {
+        StringBuilder A0o = AnonymousClass001.A0o();
+        A0o.append("WamMediaDownload2 {");
+        C57292tP.A00(A0o, "clientMessageId", this.A0c);
+        C57292tP.A00(A0o, "connectionType", C18270x1.A0T(this.A0A));
+        C57292tP.A00(A0o, "daysSinceReceive", this.A0J);
+        C57292tP.A00(A0o, "debugMediaException", this.A0d);
+        C57292tP.A00(A0o, "debugMediaIp", this.A0e);
+        C57292tP.A00(A0o, "debugUrl", this.A0f);
+        C57292tP.A00(A0o, "deviceCount", this.A0K);
+        C57292tP.A00(A0o, "downloadBytesTransferred", this.A06);
+        C57292tP.A00(A0o, "downloadConnectT", this.A0L);
+        C57292tP.A00(A0o, "downloadHttpCode", this.A0M);
+        C57292tP.A00(A0o, "downloadIsReuse", this.A00);
+        C57292tP.A00(A0o, "downloadIsStreaming", this.A01);
+        C57292tP.A00(A0o, "downloadNetworkT", this.A0N);
+        C57292tP.A00(A0o, "downloadQuality", C18270x1.A0T(this.A0B));
+        C57292tP.A00(A0o, "downloadResumePoint", this.A0O);
+        C57292tP.A00(A0o, "downloadTimeToFirstByteT", this.A0P);
+        C57292tP.A00(A0o, "estimatedBandwidth", this.A07);
+        C57292tP.A00(A0o, "expressPathBytesSaved", this.A08);
+        C57292tP.A00(A0o, "expressPathTimeSavedMs", this.A0Q);
+        C57292tP.A00(A0o, "fileHeight", this.A0R);
+        C57292tP.A00(A0o, "fileWidth", this.A0S);
+        C57292tP.A00(A0o, "hasLeveragedExpressPath", this.A02);
+        C57292tP.A00(A0o, "httpProtocolVersionType", C18270x1.A0T(this.A0C));
+        C57292tP.A00(A0o, "isViewOnce", this.A03);
+        C57292tP.A00(A0o, "mediaId", this.A0T);
+        C57292tP.A00(A0o, "networkStack", C18270x1.A0T(this.A0D));
+        C57292tP.A00(A0o, "overallAttemptCount", this.A0U);
+        C57292tP.A00(A0o, "overallBackendStore", C18270x1.A0T(this.A0E));
+        C57292tP.A00(A0o, "overallConnBlockFetchT", this.A0V);
+        C57292tP.A00(A0o, "overallConnectionClass", this.A0g);
+        C57292tP.A00(A0o, "overallCumT", this.A0W);
+        C57292tP.A00(A0o, "overallDomain", this.A0h);
+        C57292tP.A00(A0o, "overallDownloadMode", C18270x1.A0T(this.A0F));
+        C57292tP.A00(A0o, "overallDownloadOrigin", C18270x1.A0T(this.A0G));
+        C57292tP.A00(A0o, "overallDownloadResult", C18270x1.A0T(this.A0H));
+        C57292tP.A00(A0o, "overallFileValidationT", this.A0X);
+        C57292tP.A00(A0o, "overallIsEncrypted", this.A04);
+        C57292tP.A00(A0o, "overallIsFinal", this.A05);
+        C57292tP.A00(A0o, "overallMediaSize", this.A09);
+        C57292tP.A00(A0o, "overallMediaType", C18270x1.A0T(this.A0I));
+        C57292tP.A00(A0o, "overallMmsVersion", this.A0Y);
+        C57292tP.A00(A0o, "overallQueueT", this.A0Z);
+        C57292tP.A00(A0o, "overallRetryCount", this.A0a);
+        C57292tP.A00(A0o, "overallT", this.A0b);
+        return AnonymousClass3ZG.A0G(this.A0i, "usedFallbackHint", A0o);
+    }
+}

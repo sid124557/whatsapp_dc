@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.whatsapp.WaImageView android:enabled="false" android:id="@+id/back" android:background="?attr/(name removed)" android:paddingRight="0dp" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:scaleType="center" android:tint="?attr/(name removed)" android:minWidth="0dp" android:minHeight="0dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/(name removed)" android:paddingEnd="0dp" app:NOT_FOUND_0x16="?attr/(name removed)"/>
+    <FrameLayout android:id="@+id/icon_layout_anchor" android:background="?attr/(name removed)" android:layout_width="wrap_content" android:layout_height="@dimen/(name removed)" android:layout_marginRight="0dp" android:layout_toRightOf="@+id/back" android:layout_centerVertical="true" android:importantForAccessibility="yes">
+        <com.whatsapp.WaImageView android:id="@+id/conversation_contact_photo" android:scaleType="fitCenter" style="@style/(name removed)"/>
+        <ViewStub android:layout_gravity="center" android:id="@+id/subgroup_facepile_toolbar_photo" android:layout="@layout/(name removed)" android:inflatedId="@+id/subgroup_facepile_toolbar_photo" android:layout_width="@dimen/(name removed)" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/change_photo_progress_stub" android:layout="@layout/(name removed)" style="@style/(name removed)"/>
+        <com.whatsapp.WaImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/ephemeral_status" android:background="@drawable/primary_color_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x15="?attr/(name removed)" app:NOT_FOUND_0x16="@drawable/ic_ephemeral" app:NOT_FOUND_0x17="?attr/(name removed)"/>
+    </FrameLayout>
+</merge>

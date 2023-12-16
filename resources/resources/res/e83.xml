@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/conversation_row_context_card" android:padding="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no">
+        <View android:id="@+id/transition_start" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.whatsapp.wds.components.profilephoto.WDSProfilePhoto android:layout_gravity="center" android:id="@+id/conversationRow_groupCreatedContextCard_groupPhoto" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/(name removed)" android:importantForAccessibility="yes" app:NOT_FOUND_0x12="1" app:NOT_FOUND_0x13="3"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:text="@string/(name removed)" android:maxLines="1" android:importantForAccessibility="yes" style="@style/(name removed)"/>
+        <ViewStub android:id="@+id/conversationRow_groupCreatedContextCard_addMembersButtonStub" android:layout="@layout/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,185 @@
+package X;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+/* renamed from: X.1bT  reason: invalid class name and case insensitive filesystem */
+public final class C26031bT extends AnonymousClass3ZG {
+    public Boolean A00;
+    public Boolean A01;
+    public Boolean A02;
+    public Boolean A03;
+    public Boolean A04;
+    public Boolean A05;
+    public Boolean A06;
+    public Boolean A07;
+    public Boolean A08;
+    public Boolean A09;
+    public Boolean A0A;
+    public Boolean A0B;
+    public Boolean A0C;
+    public Boolean A0D;
+    public Boolean A0E;
+    public Double A0F;
+    public Integer A0G;
+    public Integer A0H;
+    public Integer A0I;
+    public Integer A0J;
+    public Integer A0K;
+    public Integer A0L;
+    public Integer A0M;
+    public Integer A0N;
+    public Integer A0O;
+    public Integer A0P;
+    public Integer A0Q;
+    public Integer A0R;
+    public Integer A0S;
+    public Integer A0T;
+    public Long A0U;
+    public Long A0V;
+    public Long A0W;
+    public Long A0X;
+    public Long A0Y;
+    public Long A0Z;
+    public Long A0a;
+    public Long A0b;
+    public Long A0c;
+    public Long A0d;
+    public Long A0e;
+    public Long A0f;
+
+    public C26031bT() {
+        super(854, new AnonymousClass5ZC(1, 5, 5, false), 0, -1);
+    }
+
+    public void serialize(AnonymousClass4AD r3) {
+        C162457s7.A0J(r3, 0);
+        r3.Blb(49, this.A0G);
+        r3.Blb(55, this.A0H);
+        r3.Blb(31, this.A0U);
+        r3.Blb(25, this.A0I);
+        r3.Blb(30, this.A0J);
+        r3.Blb(23, this.A00);
+        r3.Blb(46, this.A0K);
+        r3.Blb(43, this.A0V);
+        r3.Blb(44, this.A0L);
+        r3.Blb(21, this.A0W);
+        r3.Blb(47, this.A0M);
+        r3.Blb(48, this.A0N);
+        r3.Blb(40, this.A0X);
+        r3.Blb(54, this.A01);
+        r3.Blb(35, this.A02);
+        r3.Blb(39, this.A03);
+        r3.Blb(22, this.A04);
+        r3.Blb(8, this.A05);
+        r3.Blb(41, this.A0O);
+        r3.Blb(4, this.A06);
+        r3.Blb(7, this.A07);
+        r3.Blb(29, this.A08);
+        r3.Blb(24, this.A09);
+        r3.Blb(3, this.A0P);
+        r3.Blb(1, this.A0Q);
+        r3.Blb(17, this.A0A);
+        r3.Blb(11, this.A0Y);
+        r3.Blb(2, this.A0R);
+        r3.Blb(37, this.A0B);
+        r3.Blb(32, this.A0Z);
+        r3.Blb(28, this.A0a);
+        r3.Blb(16, this.A0b);
+        r3.Blb(33, this.A0c);
+        r3.Blb(34, this.A0S);
+        r3.Blb(45, this.A0d);
+        r3.Blb(27, this.A0e);
+        r3.Blb(56, this.A0f);
+        r3.Blb(50, this.A0C);
+        r3.Blb(38, this.A0D);
+        r3.Blb(18, this.A0E);
+        r3.Blb(20, this.A0F);
+        r3.Blb(36, this.A0T);
+    }
+
+    public Map getFieldsMap() {
+        LinkedHashMap A0r = C18320x8.A0r();
+        A0r.put(49, this.A0G);
+        A0r.put(55, this.A0H);
+        A0r.put(C18270x1.A0L(C18270x1.A0M(AnonymousClass3ZG.A09(AnonymousClass3ZG.A0F(C18290x4.A0f(31, this.A0U, A0r), this.A0I, A0r), this.A0J, A0r), this.A00, A0r), (Object) null, A0r), (Object) null);
+        A0r.put(46, this.A0K);
+        A0r.put(43, this.A0V);
+        A0r.put(AnonymousClass3ZG.A07(44, this.A0L, A0r), this.A0W);
+        A0r.put(47, this.A0M);
+        A0r.put(48, this.A0N);
+        A0r.put(40, this.A0X);
+        AnonymousClass3ZG.A0I(A0r, 15);
+        A0r.put(54, this.A01);
+        A0r.put(35, this.A02);
+        AnonymousClass3ZG.A0I(A0r, 19);
+        A0r.put(AnonymousClass3ZG.A08(39, this.A03, A0r), this.A04);
+        AnonymousClass3ZG.A0I(A0r, 53);
+        A0r.put(C18310x6.A0e(), this.A05);
+        A0r.put(C18270x1.A0F(AnonymousClass3ZG.A0A(AnonymousClass3ZG.A0E(C18270x1.A0J(C18270x1.A0G(AnonymousClass3ZG.A0B(C18270x1.A0P(C18270x1.A0H(C18270x1.A0Q(41, this.A0O, A0r), (Object) null, A0r), (Object) null, A0r), (Object) null, A0r), (Object) null, A0r), this.A06, A0r), this.A07, A0r), this.A08, A0r), this.A09, A0r), this.A0P);
+        AnonymousClass3ZG.A0I(A0r, 12);
+        A0r.put(C18270x1.A0E(C18270x1.A0N(AnonymousClass0x2.A0P(AnonymousClass001.A0f(), this.A0Q, A0r), this.A0A, A0r), this.A0Y, A0r), this.A0R);
+        A0r.put(37, this.A0B);
+        AnonymousClass3ZG.A0I(A0r, 42);
+        A0r.put(AnonymousClass0x2.A0O(AnonymousClass3ZG.A0D(32, this.A0Z, A0r), this.A0a, A0r), this.A0b);
+        AnonymousClass3ZG.A0I(A0r, 6);
+        A0r.put(33, this.A0c);
+        A0r.put(34, this.A0S);
+        A0r.put(AnonymousClass3ZG.A0C(45, this.A0d, A0r), this.A0e);
+        A0r.put(56, this.A0f);
+        A0r.put(50, this.A0C);
+        A0r.put(AnonymousClass0x2.A0Q(38, this.A0D, A0r), this.A0E);
+        A0r.put(51, (Object) null);
+        AnonymousClass0x2.A1H((Object) null, A0r, 52);
+        A0r.put(20, this.A0F);
+        A0r.put(36, this.A0T);
+        return A0r;
+    }
+
+    public String toString() {
+        StringBuilder A0o = AnonymousClass001.A0o();
+        A0o.append("WamMessageSend {");
+        C57292tP.A00(A0o, "agentEngagementType", C18270x1.A0T(this.A0G));
+        C57292tP.A00(A0o, "botType", C18270x1.A0T(this.A0H));
+        C57292tP.A00(A0o, "deviceCount", this.A0U);
+        C57292tP.A00(A0o, "deviceSizeBucket", C18270x1.A0T(this.A0I));
+        C57292tP.A00(A0o, "disappearingChatInitiator", C18270x1.A0T(this.A0J));
+        C57292tP.A00(A0o, "e2eBackfill", this.A00);
+        C57292tP.A00(A0o, "e2eFailureReason", C18270x1.A0T(this.A0K));
+        C57292tP.A00(A0o, "editDuration", this.A0V);
+        C57292tP.A00(A0o, "editType", C18270x1.A0T(this.A0L));
+        C57292tP.A00(A0o, "ephemeralityDuration", this.A0W);
+        C57292tP.A00(A0o, "ephemeralityInitiator", C18270x1.A0T(this.A0M));
+        C57292tP.A00(A0o, "ephemeralityTriggerAction", C18270x1.A0T(this.A0N));
+        C57292tP.A00(A0o, "excessPayloadKbSize", this.A0X);
+        C57292tP.A00(A0o, "isAComment", this.A01);
+        C57292tP.A00(A0o, "isAReply", this.A02);
+        C57292tP.A00(A0o, "isLid", this.A03);
+        C57292tP.A00(A0o, "isViewOnce", this.A04);
+        C57292tP.A00(A0o, "mediaCaptionPresent", this.A05);
+        C57292tP.A00(A0o, "messageDistributionType", C18270x1.A0T(this.A0O));
+        C57292tP.A00(A0o, "messageIsForward", this.A06);
+        C57292tP.A00(A0o, "messageIsInternational", this.A07);
+        C57292tP.A00(A0o, "messageIsInvisible", this.A08);
+        C57292tP.A00(A0o, "messageIsRevoke", this.A09);
+        C57292tP.A00(A0o, "messageMediaType", C18270x1.A0T(this.A0P));
+        C57292tP.A00(A0o, "messageSendResult", C18270x1.A0T(this.A0Q));
+        C57292tP.A00(A0o, "messageSendResultIsTerminal", this.A0A);
+        C57292tP.A00(A0o, "messageSendT", this.A0Y);
+        AnonymousClass3ZG.A0H(C18270x1.A0T(this.A0R), A0o);
+        C57292tP.A00(A0o, "networkWasDisconnected", this.A0B);
+        C57292tP.A00(A0o, "participantCount", this.A0Z);
+        C57292tP.A00(A0o, "receiverDefaultDisappearingDuration", this.A0a);
+        C57292tP.A00(A0o, "resendCount", this.A0b);
+        C57292tP.A00(A0o, "revokeDuration", this.A0c);
+        C57292tP.A00(A0o, "revokeType", C18270x1.A0T(this.A0S));
+        C57292tP.A00(A0o, "sendButtonPressT", this.A0d);
+        C57292tP.A00(A0o, "senderDefaultDisappearingDuration", this.A0e);
+        C57292tP.A00(A0o, "serverErrorCode", this.A0f);
+        C57292tP.A00(A0o, "stickerIsAi", this.A0C);
+        C57292tP.A00(A0o, "stickerIsAvatar", this.A0D);
+        C57292tP.A00(A0o, "stickerIsFirstParty", this.A0E);
+        C57292tP.A00(A0o, "thumbSize", this.A0F);
+        return AnonymousClass3ZG.A0G(C18270x1.A0T(this.A0T), "typeOfGroup", A0o);
+    }
+}

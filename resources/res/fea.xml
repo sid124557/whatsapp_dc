@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RadioGroup android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/(name removed)">
+        <RadioButton android:theme="?attr/(name removed)" android:id="@+id/none_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:paddingStart="@dimen/(name removed)"/>
+        <RadioButton android:theme="?attr/(name removed)" android:id="@+id/whatsapp_video_call_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:paddingStart="@dimen/(name removed)"/>
+        <RadioButton android:theme="?attr/(name removed)" android:id="@+id/link_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" android:paddingStart="@dimen/(name removed)"/>
+    </RadioGroup>
+</FrameLayout>

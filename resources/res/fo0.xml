@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/selector_orange_gradient" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/(name removed)">
+    <androidx.cardview.widget.CardView android:id="@+id/cart_item_thumbnail_card" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginLeft="@dimen/(name removed)" android:layout_marginTop="@dimen/(name removed)" android:layout_marginBottom="@dimen/(name removed)" app:NOT_FOUND_0x15="@dimen/(name removed)">
+        <com.whatsapp.WaImageView android:id="@+id/cart_item_thumbnail" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cart_item_description_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/cart_item_price_container" android:layout_toRightOf="@+id/cart_item_thumbnail_card" android:layout_centerVertical="true">
+        <com.whatsapp.TextEmojiLabel android:id="@+id/cart_item_title" android:layout_marginLeft="16dp" android:layout_marginStart="16dp" style="@style/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:id="@+id/cart_item_variant_info_1" android:visibility="gone" android:duplicateParentState="true" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:textAllCaps="true" android:layout_marginStart="16dp" style="@style/(name removed)"/>
+        <com.whatsapp.TextEmojiLabel android:id="@+id/cart_item_variant_info_2" android:visibility="gone" android:duplicateParentState="true" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:textAllCaps="true" android:layout_marginStart="16dp" style="@style/(name removed)"/>
+        <com.whatsapp.biz.catalog.view.widgets.QuantitySelector android:id="@+id/cart_item_quantity_selector" android:layout_width="wrap_content" android:layout_height="42dp" android:layout_marginLeft="10dp" android:layout_marginTop="8dp" android:layout_marginStart="10dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cart_item_price_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.whatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="?attr/(name removed)" android:id="@+id/cart_item_price" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NOT_FOUND_0x16="0"/>
+        <com.whatsapp.TextEmojiLabel android:layout_gravity="end" android:id="@+id/cart_item_original_price" style="@style/(name removed)"/>
+    </LinearLayout>
+</RelativeLayout>

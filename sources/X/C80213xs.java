@@ -1,0 +1,33 @@
+package X;
+
+import android.app.Activity;
+import android.content.Intent;
+import com.whatsapp.jid.Jid;
+
+/* renamed from: X.3xs  reason: invalid class name and case insensitive filesystem */
+public final class C80213xs extends C829045j implements AnonymousClass4GP {
+    public final /* synthetic */ String $key = "parent_jid";
+    public final /* synthetic */ Activity $this_jidArg;
+
+    public /* bridge */ /* synthetic */ Object invoke() {
+        String stringExtra;
+        Intent intent = this.$this_jidArg.getIntent();
+        if (intent != null) {
+            intent.getStringExtra(this.$key);
+        }
+        Intent intent2 = this.$this_jidArg.getIntent();
+        if (!(intent2 == null || (stringExtra = intent2.getStringExtra(this.$key)) == null)) {
+            Jid A00 = AnonymousClass32W.A00(stringExtra);
+            if ((A00 instanceof C27991fJ) && A00 != null) {
+                return A00;
+            }
+        }
+        throw C73193f5.A00;
+    }
+
+    /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+    public C80213xs(Activity activity) {
+        super(0);
+        this.$this_jidArg = activity;
+    }
+}

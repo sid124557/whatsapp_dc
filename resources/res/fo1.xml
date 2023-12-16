@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)">
+    <com.whatsapp.wds.components.button.WDSButton android:layout_gravity="center_vertical" android:id="@+id/add_promotion_cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/(name removed)" style="@style/(name removed)"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/applied_promotion_info" android:paddingLeft="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.WaImageView android:id="@+id/applied_mark" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:layout_marginRight="@dimen/(name removed)" android:src="@drawable/ic_spam_ok" android:tint="@color/(name removed)" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0x10="0"/>
+        <com.whatsapp.WaTextView android:textColor="@color/(name removed)" android:id="@+id/applied_promotion_name" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/(name removed)" android:text="@string/(name removed)" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xd="@+id/applied_mark" app:NOT_FOUND_0xe="@+id/remove_promotion_cta" app:NOT_FOUND_0x10="0"/>
+        <com.whatsapp.WaImageView android:id="@+id/remove_promotion_cta" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:src="@drawable/ic_close" app:NOT_FOUND_0xb="0" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

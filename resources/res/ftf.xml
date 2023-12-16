@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="top|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/fullscreen_header" android:paddingLeft="@dimen/(name removed)" android:paddingTop="@dimen/(name removed)" android:paddingRight="@dimen/(name removed)" android:paddingStart="@dimen/(name removed)" android:paddingEnd="@dimen/(name removed)" style="?attr/(name removed)">
+        <com.google.android.material.button.MaterialButton android:gravity="center" android:layout_gravity="top" android:id="@+id/cancel_button" android:padding="12dp" android:layout_width="@dimen/(name removed)" android:layout_height="@dimen/(name removed)" android:insetTop="0dp" android:insetBottom="0dp" android:contentDescription="@string/(name removed)" app:NOT_FOUND_0x15="@drawable/material_ic_clear_black_24dp" style="?attr/(name removed)"/>
+        <FrameLayout android:id="@+id/mtrl_picker_header_title_and_selection" android:paddingLeft="@dimen/(name removed)" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="@dimen/(name removed)">
+            <TextView android:gravity="bottom|left|center_vertical|center_horizontal|center|start" android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/mtrl_picker_title_text" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x14="@dimen/(name removed)" style="?attr/(name removed)"/>
+            <TextView android:gravity="bottom|left|center_vertical|center_horizontal|center|start" android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/mtrl_picker_header_selection_text" android:paddingBottom="@dimen/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" app:NOT_FOUND_0x14="@dimen/(name removed)" app:NOT_FOUND_0x16="@dimen/(name removed)" style="?attr/(name removed)"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="@integer/(name removed)" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/confirm_button" android:layout_width="wrap_content" android:layout_height="@dimen/(name removed)" android:text="@string/(name removed)" android:contentDescription="@string/(name removed)" style="?attr/(name removed)"/>
+            <include layout="@layout/(name removed)"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="@dimen/(name removed)" style="?attr/(name removed)"/>
+</merge>

@@ -1,0 +1,5 @@
+package X;
+
+/* renamed from: X.26P  reason: invalid class name */
+public final class AnonymousClass26P {
+}

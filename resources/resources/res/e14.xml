@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.components.MaxHeightLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:NOT_FOUND_0x12="true" app:NOT_FOUND_0x14="com.google.android.material.bottomsheet.BottomSheetBehavior">
+    <LinearLayout android:orientation="vertical" android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textStyle="bold" android:textColor="?attr/(name removed)" android:layout_gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/(name removed)" android:textAlignment="center"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/(name removed)" android:textColor="@color/(name removed)" android:layout_gravity="center" android:id="@+id/description" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/(name removed)" android:textAlignment="center"/>
+        <View style="@style/(name removed)"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/recycler_view" android:paddingTop="@dimen/(name removed)" android:paddingBottom="@dimen/(name removed)" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" app:NOT_FOUND_0x13="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <LinearLayout android:orientation="vertical" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View style="@style/(name removed)"/>
+        <com.whatsapp.wds.components.button.WDSButton android:id="@+id/start_group_call_button" android:background="@color/(name removed)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/(name removed)" style="@style/(name removed)"/>
+    </LinearLayout>
+</com.whatsapp.components.MaxHeightLinearLayout>

@@ -1,0 +1,180 @@
+package X;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+/* renamed from: X.1bU  reason: invalid class name and case insensitive filesystem */
+public final class C26041bU extends AnonymousClass3ZG {
+    public Boolean A00;
+    public Boolean A01;
+    public Double A02;
+    public Double A03;
+    public Double A04;
+    public Double A05;
+    public Double A06;
+    public Double A07;
+    public Double A08;
+    public Double A09;
+    public Double A0A;
+    public Double A0B;
+    public Double A0C;
+    public Double A0D;
+    public Double A0E;
+    public Double A0F;
+    public Double A0G;
+    public Double A0H;
+    public Double A0I;
+    public Double A0J;
+    public Double A0K;
+    public Double A0L;
+    public Double A0M;
+    public Double A0N;
+    public Double A0O;
+    public Double A0P;
+    public Double A0Q;
+    public Double A0R;
+    public Double A0S;
+    public Integer A0T;
+    public Integer A0U;
+    public Integer A0V;
+    public Integer A0W;
+    public Integer A0X;
+    public Integer A0Y;
+    public Long A0Z;
+    public Long A0a;
+    public Long A0b;
+    public Long A0c;
+    public Long A0d;
+    public Long A0e;
+    public Long A0f;
+    public Long A0g;
+
+    public C26041bU() {
+        super(484, AnonymousClass0x9.A0U(1, false), 0, -1);
+    }
+
+    public void serialize(AnonymousClass4AD r3) {
+        C162457s7.A0J(r3, 0);
+        r3.Blb(31, this.A02);
+        r3.Blb(32, this.A03);
+        r3.Blb(23, this.A04);
+        r3.Blb(17, this.A0T);
+        r3.Blb(24, this.A0Z);
+        r3.Blb(10, this.A05);
+        r3.Blb(22, this.A0a);
+        r3.Blb(6, this.A0b);
+        r3.Blb(21, this.A0c);
+        r3.Blb(5, this.A00);
+        r3.Blb(2, this.A01);
+        r3.Blb(3, this.A0d);
+        r3.Blb(14, this.A06);
+        r3.Blb(11, this.A07);
+        r3.Blb(15, this.A08);
+        r3.Blb(1, this.A0U);
+        r3.Blb(4, this.A0e);
+        r3.Blb(7, this.A0V);
+        r3.Blb(8, this.A0f);
+        r3.Blb(9, this.A09);
+        r3.Blb(13, this.A0A);
+        r3.Blb(12, this.A0B);
+        r3.Blb(20, this.A0W);
+        r3.Blb(26, this.A0C);
+        r3.Blb(18, this.A0X);
+        r3.Blb(33, this.A0D);
+        r3.Blb(34, this.A0E);
+        r3.Blb(35, this.A0F);
+        r3.Blb(36, this.A0G);
+        r3.Blb(37, this.A0H);
+        r3.Blb(38, this.A0I);
+        r3.Blb(29, this.A0Y);
+        r3.Blb(30, this.A0g);
+        r3.Blb(39, this.A0J);
+        r3.Blb(40, this.A0K);
+        r3.Blb(43, this.A0L);
+        r3.Blb(44, this.A0M);
+        r3.Blb(45, this.A0N);
+        r3.Blb(46, this.A0O);
+        r3.Blb(47, this.A0P);
+        r3.Blb(48, this.A0Q);
+        r3.Blb(49, this.A0R);
+        r3.Blb(50, this.A0S);
+    }
+
+    public Map getFieldsMap() {
+        LinkedHashMap A0r = C18320x8.A0r();
+        A0r.put(31, this.A02);
+        A0r.put(AnonymousClass3ZG.A09(32, this.A03, A0r), this.A04);
+        AnonymousClass3ZG.A0I(A0r, 27);
+        A0r.put(C18270x1.A0Q(C18270x1.A0F(C18270x1.A0E(C18270x1.A0H(AnonymousClass3ZG.A07(C18270x1.A0I(AnonymousClass3ZG.A08(C18270x1.A0M(AnonymousClass3ZG.A0A(17, this.A0T, A0r), this.A0Z, A0r), this.A05, A0r), this.A0a, A0r), this.A0b, A0r), this.A0c, A0r), this.A00, A0r), this.A01, A0r), this.A0d, A0r), this.A06);
+        AnonymousClass3ZG.A0I(A0r, 25);
+        A0r.put(AnonymousClass0x2.A0Q(AnonymousClass3ZG.A0B(AnonymousClass3ZG.A06(C18270x1.A0O(C18270x1.A0P(C18270x1.A0L(C18270x1.A0K(C18270x1.A0J(C18270x1.A0G(C18270x1.A0D(AnonymousClass0x2.A0N(C18300x5.A0Z(), this.A07, A0r), this.A08, A0r), this.A0U, A0r), this.A0e, A0r), this.A0V, A0r), this.A0f, A0r), this.A09, A0r), this.A0A, A0r), this.A0B, A0r), this.A0W, A0r), this.A0C, A0r), this.A0X);
+        A0r.put(33, this.A0D);
+        A0r.put(34, this.A0E);
+        AnonymousClass3ZG.A0I(A0r, 28);
+        A0r.put(35, this.A0F);
+        A0r.put(36, this.A0G);
+        A0r.put(37, this.A0H);
+        A0r.put(AnonymousClass3ZG.A0F(AnonymousClass3ZG.A0E(38, this.A0I, A0r), this.A0Y, A0r), this.A0g);
+        A0r.put(39, this.A0J);
+        A0r.put(40, this.A0K);
+        A0r.put(41, (Object) null);
+        AnonymousClass0x2.A1H((Object) null, A0r, 42);
+        A0r.put(43, this.A0L);
+        A0r.put(44, this.A0M);
+        A0r.put(45, this.A0N);
+        A0r.put(46, this.A0O);
+        A0r.put(47, this.A0P);
+        A0r.put(48, this.A0Q);
+        A0r.put(49, this.A0R);
+        A0r.put(50, this.A0S);
+        return A0r;
+    }
+
+    public String toString() {
+        StringBuilder A0o = AnonymousClass001.A0o();
+        A0o.append("WamBackup {");
+        C57292tP.A00(A0o, "avatarBackupDeltaSize", this.A02);
+        C57292tP.A00(A0o, "avatarBackupSize", this.A03);
+        C57292tP.A00(A0o, "backupDeletedMediaSize", this.A04);
+        C57292tP.A00(A0o, "backupNetworkSetting", C18270x1.A0T(this.A0T));
+        C57292tP.A00(A0o, "backupNumberOfFilesDeleted", this.A0Z);
+        C57292tP.A00(A0o, "backupRestoreChatdbSize", this.A05);
+        C57292tP.A00(A0o, "backupRestoreEncryptionVersion", this.A0a);
+        C57292tP.A00(A0o, "backupRestoreFinishedOverWifi", this.A0b);
+        C57292tP.A00(A0o, "backupRestoreInSessionRetryCount", this.A0c);
+        C57292tP.A00(A0o, "backupRestoreIncludeVideos", this.A00);
+        C57292tP.A00(A0o, "backupRestoreIsFull", this.A01);
+        C57292tP.A00(A0o, "backupRestoreIsWifi", this.A0d);
+        C57292tP.A00(A0o, "backupRestoreMediaFileCount", this.A06);
+        C57292tP.A00(A0o, "backupRestoreMediaSize", this.A07);
+        C57292tP.A00(A0o, "backupRestoreNetworkRequestCount", this.A08);
+        C57292tP.A00(A0o, "backupRestoreResult", C18270x1.A0T(this.A0U));
+        C57292tP.A00(A0o, "backupRestoreRetryCount", this.A0e);
+        C57292tP.A00(A0o, "backupRestoreStage", C18270x1.A0T(this.A0V));
+        C57292tP.A00(A0o, "backupRestoreT", this.A0f);
+        C57292tP.A00(A0o, "backupRestoreTotalSize", this.A09);
+        C57292tP.A00(A0o, "backupRestoreTransferFailedSize", this.A0A);
+        C57292tP.A00(A0o, "backupRestoreTransferSize", this.A0B);
+        C57292tP.A00(A0o, "backupRestoreType", C18270x1.A0T(this.A0W));
+        C57292tP.A00(A0o, "backupRestoreUserSettingsSize", this.A0C);
+        C57292tP.A00(A0o, "backupSchedule", C18270x1.A0T(this.A0X));
+        C57292tP.A00(A0o, "backupSettingsBackupDeltaSize", this.A0D);
+        C57292tP.A00(A0o, "backupSettingsBackupSize", this.A0E);
+        C57292tP.A00(A0o, "chatSettingsBackupDeltaSize", this.A0F);
+        C57292tP.A00(A0o, "chatSettingsBackupSize", this.A0G);
+        C57292tP.A00(A0o, "commerceDbBackupDeltaSize", this.A0H);
+        C57292tP.A00(A0o, "commerceDbBackupSize", this.A0I);
+        C57292tP.A00(A0o, "gdriveBackupFileType", C18270x1.A0T(this.A0Y));
+        C57292tP.A00(A0o, "gdriveChatBackupFilesCount", this.A0g);
+        C57292tP.A00(A0o, "paymentBackgroundBackupDeltaSize", this.A0J);
+        C57292tP.A00(A0o, "paymentBackgroundBackupSize", this.A0K);
+        C57292tP.A00(A0o, "stickersBackupDeltaSize", this.A0L);
+        C57292tP.A00(A0o, "stickersBackupMediaSize", this.A0M);
+        C57292tP.A00(A0o, "stickersBackupSize", this.A0N);
+        C57292tP.A00(A0o, "waDbBackupDeltaSize", this.A0O);
+        C57292tP.A00(A0o, "waDbBackupSize", this.A0P);
+        C57292tP.A00(A0o, "wallpapersBackupDeltaSize", this.A0Q);
+        C57292tP.A00(A0o, "wallpapersBackupMediaSize", this.A0R);
+        return AnonymousClass3ZG.A0G(this.A0S, "wallpapersBackupSize", A0o);
+    }
+}

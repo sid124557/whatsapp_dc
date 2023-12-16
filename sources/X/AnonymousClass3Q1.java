@@ -1,0 +1,19 @@
+package X;
+
+import androidx.credentials.playservices.controllers.CreatePublicKeyCredential.PublicKeyCredentialControllerUtility;
+import com.whatsapp.infra.graphql.generated.newsletter.NewsletterMetadataFields;
+import com.whatsapp.infra.graphql.generated.newsletter.NotificationNewsletterJoinResponseImpl;
+import com.whatsapp.infra.graphql.generated.newsletter.enums.GraphQLXWA2NewsletterStateType;
+
+/* renamed from: X.3Q1  reason: invalid class name */
+public final class AnonymousClass3Q1 implements NewsletterMetadataFields.State {
+    public final NotificationNewsletterJoinResponseImpl.Xwa2NotifyNewsletterOnJoin.State A00;
+
+    public GraphQLXWA2NewsletterStateType BDy() {
+        return (GraphQLXWA2NewsletterStateType) this.A00.A03(GraphQLXWA2NewsletterStateType.UNSET_OR_UNRECOGNIZED_ENUM_VALUE, PublicKeyCredentialControllerUtility.JSON_KEY_TYPE);
+    }
+
+    public AnonymousClass3Q1(NotificationNewsletterJoinResponseImpl.Xwa2NotifyNewsletterOnJoin.State state) {
+        this.A00 = state;
+    }
+}
